@@ -19,8 +19,8 @@ func _physics_process(delta):
 	movement.x = clamp(movement.x, -SPEED, SPEED)
 
 	if is_on_floor():
-		movement.y = 0
-		if Input.is_action_just_pressed("jump"):
+		movement.y = GRAV*delta
+		if Input.is_action_pressed("jump"):
 			movement.y -= JUMP_FORCE
 	else:
 		movement.y += GRAV*delta
