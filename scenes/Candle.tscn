@@ -41,7 +41,7 @@ script = ExtResource( 2 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 4 )
 animation = "on"
-frame = 2
+frame = 1
 playing = true
 
 [node name="Progress" type="ProgressBar" parent="."]
@@ -49,6 +49,7 @@ margin_left = -23.9553
 margin_top = -28.9381
 margin_right = 24.0447
 margin_bottom = -12.9381
+max_value = 1.0
 allow_greater = true
 percent_visible = false
 __meta__ = {
@@ -60,3 +61,6 @@ __meta__ = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2( 0, 3.46478 )
 shape = SubResource( 10 )
+
+[connection signal="body_entered" from="Hitbox" to="." method="_on_Hitbox_body_entered"]
+[connection signal="body_exited" from="Hitbox" to="." method="_on_Hitbox_body_exited"]
