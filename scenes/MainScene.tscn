@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/Candle.tscn" type="PackedScene" id=2]
@@ -16,6 +16,9 @@ extents = Vector2( 25.4361, 1.35272 )
 
 [sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 12.269, 2.28297 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 59.8263, 11.3833 )
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 3 )
@@ -44,12 +47,13 @@ __meta__ = {
 }
 
 [node name="Bench" type="StaticBody2D" parent="."]
-position = Vector2( 358.278, 250.106 )
+position = Vector2( 360.242, 250.246 )
 __meta__ = {
 "_edit_lock_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Bench"]
+rotation = 0.00523599
 shape = SubResource( 2 )
 one_way_collision = true
 
@@ -64,7 +68,8 @@ shape = SubResource( 3 )
 one_way_collision = true
 
 [node name="BranchLow" type="StaticBody2D" parent="."]
-position = Vector2( 471.622, 221.623 )
+position = Vector2( 471.357, 221.093 )
+rotation = -0.261799
 __meta__ = {
 "_edit_lock_": true
 }
@@ -76,6 +81,17 @@ one_way_collision = true
 __meta__ = {
 "_edit_group_": true
 }
+
+[node name="LemonadeTop" type="StaticBody2D" parent="."]
+position = Vector2( 239.174, 197.883 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LemonadeTop"]
+position = Vector2( -0.25, -0.25 )
+shape = SubResource( 5 )
+one_way_collision = true
 
 [node name="Candle" parent="." groups=[
 "Candles",
