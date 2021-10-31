@@ -6,7 +6,7 @@ signal fix_possible(candle, body)
 # Emitted when a body can no longer use the fix action on a candle
 signal fix_impossible(candle, body)
 
-export var FIX_TIME: float = 5
+export var FIX_TIME: float = 3
 
 onready var animation: AnimatedSprite = $AnimatedSprite
 onready var progressBar: ProgressBar = $Progress
@@ -52,7 +52,7 @@ func _process(delta):
 			animation.play("on")
 
 func _makeLifetime():
-	return randf() * 20 + 10 # [10, 30]
+	return randf() * 100 + 15
 
 func startFixing():
 	if !isOn:
