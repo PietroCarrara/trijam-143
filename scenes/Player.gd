@@ -11,7 +11,7 @@ const JUMP_FORCE = GRAV*(0.25*2) # Takes 0.25 seconds to reach jump peak
 var candles = []
 var movement = Vector2()
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_pressed("fix"):
 		for candle in candles:
 			candle.startFixing()
@@ -35,8 +35,8 @@ func _physics_process(delta):
 	else:
 		movement.y += GRAV*delta
 	
+	movement = move_and_slide(movement, Vector2.UP)
 	sprite.rotation += (movement.x/SPEED)*2*PI*delta
-	move_and_slide(movement, Vector2.UP)
 	
 func canFix(candle: Candle):
 	candles.append(candle)
