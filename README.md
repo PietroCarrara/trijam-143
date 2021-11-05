@@ -1,5 +1,5 @@
 # Candlelight 🎃
-Keep the lights on! (*[play online!](https://arnett.itch.io/candlelight)*)
+Keep the lights on! (*[play online!](https://pbcarrara.itch.io/candlelight)*)
 
 *Game made in 05:15h as a submission to the [143rd Trijam game jam](https://itch.io/jam/trijam-143)*
 
