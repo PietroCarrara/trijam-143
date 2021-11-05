@@ -11,3 +11,5 @@ Try to have fun for as long as you can hold! Having the lights off makes it hard
 ![screenshot 1](https://img.itch.zone/aW1hZ2UvMTI1ODY1OS83MzM0NzE5LnBuZw==/original/2gRKRH.png)
 ![screenshot 2](https://img.itch.zone/aW1hZ2UvMTI1ODY1OS83MzM0NzIwLnBuZw==/original/%2BZHS3j.png)
 ![screenshot 3](https://img.itch.zone/aW1hZ2UvMTI1ODY1OS83MzM0NzE4LnBuZw==/original/PnHZTr.png)
+
+*Avara font available at [fontlibrary.org](https://fontlibrary.org/en/font/avara)*
