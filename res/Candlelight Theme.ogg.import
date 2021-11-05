@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Candlelight Theme.ogg-f5475a52d8dcbc145a9e9f52e87d126e.oggstr"
+
+[deps]
+
+source_file="res://res/Candlelight Theme.ogg"
+dest_files=[ "res://.import/Candlelight Theme.ogg-f5475a52d8dcbc145a9e9f52e87d126e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=28.8
