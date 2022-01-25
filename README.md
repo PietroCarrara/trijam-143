@@ -1,7 +1,7 @@
 # Candlelight 🎃
 Keep the lights on! (*[play online!](https://pbcarrara.itch.io/candlelight)*)
 
-*Game made in 05:15h as a submission to the [143rd Trijam game jam](https://itch.io/jam/trijam-143)*
+*Game made in 05:15h as a submission to the [143th Trijam game jam](https://itch.io/jam/trijam-143)*
 
 One night each year, the pumpkins roam the earth looking for fun, but if they go to sleep, they'll wake up next morning as just a regular pumpkin.
 Try to have fun for as long as you can hold! Having the lights off makes it harder to stay up.
